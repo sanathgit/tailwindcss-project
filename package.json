@@ -1,0 +1,24 @@
+{
+  "name": "lesson05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  
+  "scripts": {
+  "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/styles.css --watch",
+  "prettier": "npx prettier --write **/*.html"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  
+  "dependencies": {
+  "tailwindcss": "^3.4.17"
+  },
+  
+  "devDependencies": {
+  "prettier-plugin-tailwindcss": "^0.7.2"
+  }
+}
